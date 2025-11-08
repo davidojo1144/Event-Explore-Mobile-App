@@ -16,17 +16,43 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.eventexplorer.app"
+      "bundleIdentifier": "com.eventexplorer.app",
+      "infoPlist": {
+        "NSCalendarsUsageDescription": "This app needs access to your calendar to add event reminders.",
+        "NSRemindersUsageDescription": "This app needs access to your reminders to set event notifications."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#6366f1"
       },
-      "package": "com.eventexplorer.app"
+      "package": "com.eventexplorer.app",
+      "permissions": [
+        "READ_CALENDAR",
+        "WRITE_CALENDAR",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#6366f1",
+          "sounds": []
+        }
+      ]
+    ],
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#6366f1",
+      "androidMode": "default",
+      "androidCollapsedTitle": "Event Reminder"
     }
   }
 }
