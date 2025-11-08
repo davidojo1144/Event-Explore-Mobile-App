@@ -271,3 +271,8 @@ export const mockEvents: Event[] = [
     date: '2024-04-14',
     time: '08:30 AM',
     shortDescription: 'Scenic bike ride across the iconic bridge',
+    fullDescription: 'Pedal your way through San Francisco\'s most scenic route! This guided cycling tour takes you across the Golden Gate Bridge to Sausalito, with stops at vista points for photos. Includes bike rental, helmet, and ferry ticket back. Moderate fitness level required. Small group size ensures personalized experience.',
+    location: 'Fisherman\'s Wharf, San Francisco, CA',
+    category: 'Sports',
+    imageUrl: 'https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=800'
+  },
