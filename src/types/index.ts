@@ -69,5 +69,7 @@ export interface Theme {
     notification: string;
     error: string;
     success: string;
+    inputBackground: string;
+    shadow: string;
   };
 }
