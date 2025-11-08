@@ -132,5 +132,142 @@ export const mockEvents: Event[] = [
     location: 'Laugh Factory, 123 Comedy Lane, San Francisco, CA',
     category: 'Entertainment',
     imageUrl: 'https://images.unsplash.com/photo-1585699324551-f6c309eedeca?w=800'
-  }
-];
+  },
+  {
+    id: '13',
+    title: 'Photography Workshop: Street Photography',
+    date: '2024-03-18',
+    time: '02:00 PM',
+    shortDescription: 'Learn the art of capturing urban life through your lens',
+    fullDescription: 'Join professional photographer Sarah Chen for an immersive street photography workshop. Learn composition techniques, how to capture candid moments, and post-processing tips. We\'ll explore the city\'s most photogenic neighborhoods and review your work in a group critique session. All camera types welcome, from smartphones to DSLRs.',
+    location: 'Mission District, San Francisco, CA',
+    category: 'Art & Culture',
+    imageUrl: 'https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800'
+  },
+  {
+    id: '14',
+    title: 'Virtual Reality Gaming Tournament',
+    date: '2024-04-05',
+    time: '06:00 PM',
+    shortDescription: 'Compete in the ultimate VR gaming championship',
+    fullDescription: 'Step into the future of gaming at our VR tournament! Compete in popular VR games including Beat Saber, Half-Life: Alyx, and more. Prizes for top performers, including gaming gear and VR headsets. Spectator tickets available. All skill levels welcome. Equipment provided.',
+    location: 'GameZone Arena, 555 Howard St, San Francisco, CA',
+    category: 'Technology',
+    imageUrl: 'https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?w=800'
+  },
+  {
+    id: '15',
+    title: 'Farmers Market & Craft Fair',
+    date: '2024-03-23',
+    time: '09:00 AM',
+    shortDescription: 'Fresh produce, artisan goods, and local crafts',
+    fullDescription: 'Support local farmers and artisans at our weekly market! Browse fresh organic produce, handmade crafts, baked goods, and specialty foods. Live music, kids activities, and food trucks. Bring your reusable bags and enjoy a morning of community connection and sustainable shopping.',
+    location: 'Ferry Building Marketplace, San Francisco, CA',
+    category: 'Food & Drink',
+    imageUrl: 'https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800'
+  },
+  {
+    id: '16',
+    title: 'Rock Climbing Competition',
+    date: '2024-04-20',
+    time: '10:00 AM',
+    shortDescription: 'Test your skills in this exciting climbing challenge',
+    fullDescription: 'Climbers of all levels are invited to participate in our annual climbing competition! Categories for beginners, intermediate, and advanced climbers. Watch professional climbers demonstrate techniques, try new routes, and compete for prizes. Safety equipment provided. Registration required.',
+    location: 'Mission Cliffs Climbing Gym, San Francisco, CA',
+    category: 'Sports',
+    imageUrl: 'https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800'
+  },
+  {
+    id: '17',
+    title: 'Classical Music Concert: Symphony Night',
+    date: '2024-05-10',
+    time: '07:30 PM',
+    shortDescription: 'An evening of timeless classical masterpieces',
+    fullDescription: 'Experience the beauty of classical music performed by the San Francisco Symphony Orchestra. Tonight\'s program features works by Beethoven, Mozart, and Tchaikovsky. Conducted by renowned maestro James Anderson. Pre-concert talk at 6:30 PM. Dress code: smart casual.',
+    location: 'Davies Symphony Hall, San Francisco, CA',
+    category: 'Music',
+    imageUrl: 'https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=800'
+  },
+  {
+    id: '18',
+    title: 'Sustainable Living Workshop',
+    date: '2024-04-08',
+    time: '11:00 AM',
+    shortDescription: 'Learn practical tips for eco-friendly living',
+    fullDescription: 'Discover how to reduce your environmental footprint with this hands-on workshop. Topics include composting, zero-waste living, sustainable fashion, and green energy solutions. Make your own reusable products to take home. Light refreshments provided. Perfect for families and eco-conscious individuals.',
+    location: 'Green Living Center, Berkeley, CA',
+    category: 'Education',
+    imageUrl: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800'
+  },
+  {
+    id: '19',
+    title: 'Salsa Dancing Social',
+    date: '2024-03-29',
+    time: '08:00 PM',
+    shortDescription: 'Dance the night away with Latin rhythms',
+    fullDescription: 'Join us for an energetic evening of salsa dancing! Beginner lesson at 8 PM, followed by social dancing until midnight. Live DJ spinning the hottest Latin tracks. No partner required - come solo or bring friends. Cash bar available. Dress to impress and dance!',
+    location: 'Latin Dance Studio, 234 Valencia St, San Francisco, CA',
+    category: 'Entertainment',
+    imageUrl: 'https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=800'
+  },
+  {
+    id: '20',
+    title: 'Craft Beer Tasting Festival',
+    date: '2024-05-25',
+    time: '03:00 PM',
+    shortDescription: 'Sample the finest craft beers from local breweries',
+    fullDescription: 'Beer enthusiasts rejoice! This festival features 40+ local craft breweries showcasing their best brews. From IPAs to stouts, sours to lagers, there\'s something for every palate. Food trucks, live music, and brewery tours included. Souvenir tasting glass for all attendees. Ages 21+.',
+    location: 'Fort Mason Center, San Francisco, CA',
+    category: 'Food & Drink',
+    imageUrl: 'https://images.unsplash.com/photo-1535958636474-b021ee887b13?w=800'
+  },
+  {
+    id: '21',
+    title: 'Digital Marketing Masterclass',
+    date: '2024-04-12',
+    time: '09:00 AM',
+    shortDescription: 'Master social media, SEO, and content marketing',
+    fullDescription: 'Elevate your digital marketing skills in this comprehensive masterclass. Learn proven strategies for social media marketing, SEO optimization, content creation, and analytics. Taught by industry experts with real-world case studies. Includes workbook, templates, and certificate of completion. Limited seats available.',
+    location: 'Marketing Hub, 890 Market St, San Francisco, CA',
+    category: 'Business',
+    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800'
+  },
+  {
+    id: '22',
+    title: 'Kids Science Fair',
+    date: '2024-04-27',
+    time: '10:00 AM',
+    shortDescription: 'Young scientists showcase their amazing projects',
+    fullDescription: 'Celebrate young innovators at our annual kids science fair! Students from grades K-8 present their science projects and experiments. Interactive demonstrations, hands-on activities, and STEM workshops for all ages. Awards ceremony at 3 PM. Free admission for families. Inspire the next generation of scientists!',
+    location: 'Exploratorium, San Francisco, CA',
+    category: 'Education',
+    imageUrl: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800'
+  },
+  {
+    id: '23',
+    title: 'Meditation & Mindfulness Retreat',
+    date: '2024-05-15',
+    time: '09:00 AM',
+    shortDescription: 'Find inner peace through guided meditation',
+    fullDescription: 'Disconnect from the chaos and reconnect with yourself at this day-long meditation retreat. Led by experienced mindfulness instructor Maya Patel. Includes guided meditation sessions, breathing exercises, mindful walking, and silent reflection time. Vegetarian lunch provided. Suitable for beginners and experienced practitioners.',
+    location: 'Peaceful Mind Center, Sausalito, CA',
+    category: 'Health & Wellness',
+    imageUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800'
+  },
+  {
+    id: '24',
+    title: 'Broadway Musical: Hamilton',
+    date: '2024-06-08',
+    time: '08:00 PM',
+    shortDescription: 'The revolutionary musical comes to San Francisco',
+    fullDescription: 'Don\'t miss your chance to see the Tony Award-winning musical Hamilton! This groundbreaking show tells the story of American founding father Alexander Hamilton through hip-hop, jazz, and R&B. An unforgettable theatrical experience that\'s been captivating audiences worldwide. Book early - shows sell out fast!',
+    location: 'Orpheum Theatre, San Francisco, CA',
+    category: 'Entertainment',
+    imageUrl: 'https://images.unsplash.com/photo-1503095396549-807759245b35?w=800'
+  },
+  {
+    id: '25',
+    title: 'Cycling Tour: Golden Gate Bridge',
+    date: '2024-04-14',
+    time: '08:30 AM',
+    shortDescription: 'Scenic bike ride across the iconic bridge',
