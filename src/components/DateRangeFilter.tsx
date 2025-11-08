@@ -8,7 +8,7 @@ interface DateRangeFilterProps {
   onDateRangeChange: (startDate: Date | null, endDate: Date | null) => void;
 }
 
-const DateRangeFilter: React.FC<DateRangeFilterProps> = memo(({
+const DateRangeFilter: React.FC<DateRangeFilterProps> = memo((
   startDate,
   endDate,
   onDateRangeChange,
