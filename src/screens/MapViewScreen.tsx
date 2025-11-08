@@ -107,7 +107,7 @@ const MapViewScreen: React.FC<MapViewScreenProps> = ({ navigation }) => {
 
   return (
     <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
-      <View style={styles.header}>
+      {/* <View style={styles.header}>
         <TouchableOpacity
           style={styles.backButton}
           onPress={() => navigation.goBack()}
@@ -116,7 +116,7 @@ const MapViewScreen: React.FC<MapViewScreenProps> = ({ navigation }) => {
         </TouchableOpacity>
         <Text style={styles.headerTitle}>Event Map</Text>
         <View style={{ width: 40 }} />
-      </View>
+      </View> */}
 
       <MapView
         style={styles.map}

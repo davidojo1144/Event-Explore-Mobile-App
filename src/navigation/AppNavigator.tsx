@@ -148,7 +148,7 @@ const AppNavigator = () => {
               name="MapView"
               component={MapViewScreen}
               options={{
-                headerShown: false,
+                headerShown: true,
               }}
             />
             <Stack.Screen
