@@ -318,3 +318,72 @@ export const mockEvents: Event[] = [
     fullDescription: 'Turn your business idea into reality! This intensive 2-day bootcamp covers business planning, funding strategies, marketing, legal basics, and pitch preparation. Learn from successful entrepreneurs and investors. Includes mentorship sessions, networking opportunities, and pitch competition with prizes. Bring your laptop and business ideas!',
     location: 'Startup Incubator, 678 Brannan St, San Francisco, CA',
     category: 'Business',
+    imageUrl: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800'
+  },
+  {
+    id: '30',
+    title: 'Wine & Paint Night',
+    date: '2024-03-31',
+    time: '07:00 PM',
+    shortDescription: 'Unleash your creativity with wine and canvas',
+    fullDescription: 'No experience necessary! Join us for a relaxing evening of painting and wine. Our instructor will guide you step-by-step to create your own masterpiece. All art supplies included, plus two glasses of wine. Take home your finished painting. Perfect for date night or girls\' night out!',
+    location: 'Art & Wine Studio, 234 Polk St, San Francisco, CA',
+    category: 'Art & Culture',
+    imageUrl: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800'
+  },
+  {
+    id: '31',
+    title: 'Tennis Tournament: City Championship',
+    date: '2024-06-15',
+    time: '08:00 AM',
+    shortDescription: 'Annual tennis championship for all skill levels',
+    fullDescription: 'Serve, volley, and compete in our annual tennis championship! Singles and doubles categories for beginners, intermediate, and advanced players. Professional umpires, prizes for winners, and post-tournament BBQ. Register early as spots fill quickly. Bring your A-game!',
+    location: 'Golden Gate Park Tennis Center, San Francisco, CA',
+    category: 'Sports',
+    imageUrl: 'https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800'
+  },
+  {
+    id: '32',
+    title: 'Electronic Music Festival',
+    date: '2024-07-04',
+    time: '06:00 PM',
+    shortDescription: 'Dance under the stars with world-class DJs',
+    fullDescription: 'Get ready for an electrifying night of electronic music! Featuring international DJs spinning house, techno, trance, and dubstep. Multiple stages, stunning light shows, and immersive art installations. VIP packages available. Ages 18+. This is the summer\'s biggest EDM event!',
+    location: 'Shoreline Amphitheatre, Mountain View, CA',
+    category: 'Music',
+    imageUrl: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800'
+  },
+  {
+    id: '33',
+    title: 'Gardening Workshop: Urban Farming',
+    date: '2024-04-06',
+    time: '10:00 AM',
+    shortDescription: 'Learn to grow your own food in small spaces',
+    fullDescription: 'Transform your balcony or backyard into a productive garden! Learn about container gardening, vertical growing, composting, and seasonal planting. Get hands-on experience and take home starter plants. Perfect for urban dwellers wanting to grow their own fresh produce. All materials provided.',
+    location: 'Community Garden Center, Oakland, CA',
+    category: 'Education',
+    imageUrl: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800'
+  },
+  {
+    id: '34',
+    title: 'Chocolate Tasting Experience',
+    date: '2024-04-25',
+    time: '02:00 PM',
+    shortDescription: 'Indulge in artisan chocolates from around the world',
+    fullDescription: 'Calling all chocolate lovers! Sample premium chocolates from renowned chocolatiers worldwide. Learn about cacao origins, production methods, and flavor profiles. Includes wine pairings and take-home chocolate gift box. Led by certified chocolate sommelier. Limited to 20 participants.',
+    location: 'Chocolate Boutique, 456 Union St, San Francisco, CA',
+    category: 'Food & Drink',
+    imageUrl: 'https://images.unsplash.com/photo-1511381939415-e44015466834?w=800'
+  },
+  {
+    id: '35',
+    title: 'Drone Racing Competition',
+    date: '2024-05-12',
+    time: '11:00 AM',
+    shortDescription: 'High-speed FPV drone racing action',
+    fullDescription: 'Experience the thrill of drone racing! Watch skilled pilots navigate challenging courses at breakneck speeds. Try flying drones yourself in the beginner zone. Prizes for top racers, food trucks, and tech vendors. Family-friendly event with something for everyone. Free admission for spectators.',
+    location: 'Tech Park Arena, San Jose, CA',
+    category: 'Technology',
+    imageUrl: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=800'
+  }
+];
