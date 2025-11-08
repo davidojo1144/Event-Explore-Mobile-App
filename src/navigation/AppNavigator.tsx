@@ -49,9 +49,8 @@ const MainTabs = () => {
           backgroundColor: theme.colors.card,
           borderTopWidth: 1,
           borderTopColor: theme.colors.border,
-          paddingBottom: 10,
-          paddingTop: 8,
-          height: 70,
+          marginBottom: 5,
+          height: 80,
         },
         tabBarLabelStyle: {
           fontSize: 12,
