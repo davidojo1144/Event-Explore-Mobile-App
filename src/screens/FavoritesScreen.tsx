@@ -3,6 +3,7 @@ import { View, FlatList, StyleSheet, Text } from 'react-native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types';
 import { useFavorites } from '../hooks/useFavorites';
+import { useTheme } from '../hooks/useTheme';
 import EventCard from '../components/EventCard';
 import EmptyState from '../components/EmptyState';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -18,6 +19,7 @@ interface FavoritesScreenProps {
 
 const FavoritesScreen: React.FC<FavoritesScreenProps> = ({ navigation }) => {
   const { favorites, loading } = useFavorites();
+  const { theme } = useTheme();
 
   // Navigate to event details
   const handleEventPress = useCallback(
@@ -38,6 +40,32 @@ const FavoritesScreen: React.FC<FavoritesScreenProps> = ({ navigation }) => {
   // Key extractor for FlatList optimization
   const keyExtractor = useCallback((item: typeof favorites[0]) => item.id, []);
 
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: theme.colors.background,
+    },
+    header: {
+      paddingHorizontal: 16,
+      paddingTop: 16,
+      paddingBottom: 16,
+      backgroundColor: theme.colors.card,
+    },
+    headerTitle: {
+      fontSize: 28,
+      fontWeight: 'bold',
+      color: theme.colors.text,
+      marginBottom: 4,
+    },
+    headerSubtitle: {
+      fontSize: 14,
+      color: theme.colors.textSecondary,
+    },
+    listContent: {
+      paddingBottom: 16,
+    },
+  });
+
   if (loading) {
     return (
       <View style={styles.container}>
@@ -50,7 +78,7 @@ const FavoritesScreen: React.FC<FavoritesScreenProps> = ({ navigation }) => {
   }
 
   return (
-    <SafeAreaView edges={['top', 'left', 'right']}  style={styles.container}>
+    <SafeAreaView edges={['top', 'left', 'right']} style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.headerTitle}>My Favorites</Text>
         <Text style={styles.headerSubtitle}>
@@ -82,31 +110,5 @@ const FavoritesScreen: React.FC<FavoritesScreenProps> = ({ navigation }) => {
     </SafeAreaView>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f9fafb',
-  },
-  header: {
-    paddingHorizontal: 16,
-    paddingTop: 16,
-    paddingBottom: 16,
-    backgroundColor: '#fff',
-  },
-  headerTitle: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    color: '#1f2937',
-    marginBottom: 4,
-  },
-  headerSubtitle: {
-    fontSize: 14,
-    color: '#6b7280',
-  },
-  listContent: {
-    paddingBottom: 16,
-  },
-});
 
 export default FavoritesScreen;

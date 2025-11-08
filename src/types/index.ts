@@ -47,7 +47,7 @@ export type RootStackParamList = {
 export type MainTabParamList = {
   EventList: undefined;
   Favorites: undefined;
-  Map: undefined;
+  Settings: undefined;
 };
 
 export type AuthStackParamList = {
