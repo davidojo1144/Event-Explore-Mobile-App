@@ -276,3 +276,45 @@ export const mockEvents: Event[] = [
     category: 'Sports',
     imageUrl: 'https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=800'
   },
+  {
+    id: '26',
+    title: 'AI & Machine Learning Summit',
+    date: '2024-05-22',
+    time: '09:00 AM',
+    shortDescription: 'Explore the latest in artificial intelligence',
+    fullDescription: 'Join leading AI researchers and practitioners for a day of cutting-edge insights. Topics include deep learning, natural language processing, computer vision, and ethical AI. Hands-on workshops, networking sessions, and keynote from Google AI team. Perfect for data scientists, engineers, and tech enthusiasts.',
+    location: 'Tech Innovation Center, San Francisco, CA',
+    category: 'Technology',
+    imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800'
+  },
+  {
+    id: '27',
+    title: 'Sushi Making Class',
+    date: '2024-04-18',
+    time: '06:00 PM',
+    shortDescription: 'Learn to make authentic Japanese sushi',
+    fullDescription: 'Master the art of sushi making with Chef Takeshi Yamamoto! Learn knife skills, rice preparation, and rolling techniques. Make nigiri, maki rolls, and inside-out rolls. All ingredients and tools provided. Take home recipes and enjoy your creations. Sake tasting included. Limited to 12 participants.',
+    location: 'Culinary Arts Studio, 567 Post St, San Francisco, CA',
+    category: 'Food & Drink',
+    imageUrl: 'https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=800'
+  },
+  {
+    id: '28',
+    title: 'Poetry Open Mic Night',
+    date: '2024-03-27',
+    time: '07:00 PM',
+    shortDescription: 'Share your words or enjoy spoken word performances',
+    fullDescription: 'Express yourself at our monthly poetry open mic! All styles welcome - from slam poetry to haiku, free verse to sonnets. Sign up to perform or simply enjoy the show. Supportive atmosphere for poets of all experience levels. Coffee, tea, and snacks available. Bring your creativity!',
+    location: 'The Beat Cafe, 345 Columbus Ave, San Francisco, CA',
+    category: 'Art & Culture',
+    imageUrl: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800'
+  },
+  {
+    id: '29',
+    title: 'Entrepreneurship Bootcamp',
+    date: '2024-05-30',
+    time: '09:00 AM',
+    shortDescription: 'Launch your startup with expert guidance',
+    fullDescription: 'Turn your business idea into reality! This intensive 2-day bootcamp covers business planning, funding strategies, marketing, legal basics, and pitch preparation. Learn from successful entrepreneurs and investors. Includes mentorship sessions, networking opportunities, and pitch competition with prizes. Bring your laptop and business ideas!',
+    location: 'Startup Incubator, 678 Brannan St, San Francisco, CA',
+    category: 'Business',
