@@ -53,6 +53,11 @@
       "color": "#6366f1",
       "androidMode": "default",
       "androidCollapsedTitle": "Event Reminder"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a96643c6-8b2b-4c21-af92-e5a7d7a0c1cd"
+      }
     }
   }
 }
